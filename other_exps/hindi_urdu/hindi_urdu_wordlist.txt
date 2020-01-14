@@ -1,0 +1,81 @@
+﻿transcription	romanization	urdu_orthography	hindi_orthography	english_gloss	phone	vowel
+kɑdʒu	kaaju	کاجو	काजू	cashew	k	ɑ
+kəRva	kervaa	کڑوا	कड़वा	bitter	k	ə
+kiRɑ	keera	کيڑا	कीड़ा	insect	k	i
+khɑnɑ	khaana	کھانا	खाना	food	kh	ɑ
+khərgowʃ	khergosh	خرگوش	खरगोश	rabbit	kh/x	ə
+khitʃnɑ	kheechna	کھینچنا	खींचना	to pull	kh	i
+gəlɑ	gela	گلا	गला	throat	g	ə
+gɑnɑ	gaana	گانا	गाना	song	g	ɑ
+gilɑ	geela	گیلا	गीला	wet	g	i
+ghəRi	gheri	گهڑی	घड़ी	watch	gh	ə
+ghɑjəl	ghaayal	گھایل	घायल	wounded	gh	ɑ
+ghɪsnɑ	ghisna	گھسنا	घिसना	to grate	gh	ɪ
+Tɑlna	taalna	ٹالنا	टालना	to postpone	T	ɑ
+Təpək	tepak	ٹپک	टपक	drip	T	ə
+Tɪkɑ	teeka	ٹيکہ	टीका	headpiece	T	ɪ
+Thɑkʊr	thaakur	ٹھاکر	ठाकुर	nobleman	Th	ɑ
+ThənDi	thendi	ٹھنڈی	ठंडी	cold	Th	ə
+ThiThər	thither	ٹھٹھر	ठिठुर	shiver	Th	i
+Dɑku	daaku	ڈاکو	डाकू	bandit	D	ɑ
+Dərnɑ	derna	ڈرنا	डरना	to be scared	D	ə
+Dɪbbi	dibbi	ڈببي	डिब्बी	small box	D	ɪ
+Dhɑlna	dhaalnaa	ڈھالنا	ढालना	to mould	Dh	ɑ
+Dhəknɑ	dhekna	ڈهکنا	ढकना	to be covered	Dh	ə
+Dhila	dheela	ڈھيلا	ढीला	loose	Dh	i
+dɑnɑ	dana	دانا	दाना	grain	d	ɑ
+dəbɑv	debav	دباؤ	दबाव	the act of pressing	d	ə
+dɪmɑg	dimaag	دماغ	दिमाग	brain	d	ɪ
+dhɑri	dhaari	دھاری	धारी	vein/stripe	dh	ɑ
+dhəmki	dhemki	دھمکی	धमकी	threat	dh	ə
+dhima	dheema	دھيما	धीमा	slow	dh	i
+tɑlɑ	taala	تالا	ताला	lock	t	ɑ
+təvɑ	tevaa	توا	तवा	stove/frying pan	t	ə
+tɪtli	titli	تتلي	तितली	butterfly	t	ɪ
+thɑli	thaali	تھالي	थाली	plate	th	ɑ
+thəknɑ	theknaa	تھکنا	थकना	to tire/become exhausted	th	ə
+thɪɾkən	thirkan	تھرکن	थिरकन	a playful musical composition	th	ɪ
+pɑpɑ	papa	پاپا	पापा	father	p	ɑ
+pəhɑR	pehar	پہاڑ	पहाड़	mountain	p	ə
+pilɑ	peela	پیلا	पीला	yellow	p	i
+phɑRnɑ	phaarna	پھاڑنا	फाड़ना	to tear	ph	ɑ
+phikɑ	pheeka	پھيکا	फीका	bland/tasteless	ph	i
+phəlnɑ	phelna	پھلنا	फलना	to bear fruit	ph	ə
+bɑɦəɾ	baaher	باہر	बाहर	outside	b	ɑ
+bəRɑ	beraa	بڑا	बड़ा	big	b	ə
+bɪl:i	billi	بلی	बिल्ली	cat	b	ɪ
+bhɑlu	bhaalu	بھالو	भालू	bear	bh	ɑ
+bhəlɑ	bhelaa	بھلا	भला	benefit	bh	ə
+bhignɑ	bheegna	بھيگنا	भीगना	to be soaked	bh	i
+Tɑkɑ	taaka	ٹانکا	टांका	stitch	k	ɑ
+sukhɑ	sookha	سوکھا	सूखा	dry	kh	ɑ
+dhɑgɑ	dhaaga	دهاگا	धागा	thread	g	ɑ
+bəghɑr	beghar	بگھار	बघार	tempering spices, seasoning	gh	ɑ
+ɑTɑ	ata	آٹا	आटा	flour	T	ɑ
+miThɑ	meetha	ميٹھا	मीठा	sweet tasting	Th	ɑ
+DʌnDɑ	danda	ڈنڈا	डंडा	stick	D	ɑ
+DhunDhna	dhoondhna	ڈھونڈنا	ढूँढना	to look for	Dh	ɑ
+sɑdɑ	sada	سادہ	सादा	plain	d	ɑ
+ɑdhɑ	aadha	آدھا	आधा	half	dh	ɑ
+mɑtɑ	mata	ماتا	माता	mother	t	ɑ
+mɑthɑ	matha	ماتھا	माथा	forehead	th	ɑ
+sapna	sepna	سپنا	सपना	dream	p	ɑ
+phʊphɑ	phophaa	پھوپھا	फूफा	uncle	ph	ɑ
+Dhɑbɑ	dhaaba	ڈھابہ	ढाबा	truck stop	b	ɑ
+səmbhɑl	sembhaal	سنبھال	संभाल	carefully	bh	ɑ
+nɑk	naak	ناک	नाक	nose	k	ɑ
+lɑkh	laakh	لاکھ	लाख	one hundred thousand	kh	ɑ
+dɑg	daag	داغ	दाग	stain	g	ɑ
+kɑT	kaat	کاٹ	काट	cut	T	ɑ
+sɑTh	saath	ساٹھ	साठ	sixty	Th	ɑ
+sɑnD	saand	سانڈ	सांड	bull	D	ɑ
+DhunDh	dhoondh	ڈھونڈ	ढूंढ	find	Dh	u
+kʌd	kad	قد	कद	height	d	ʌ
+dudh	doodh	دودھ	दूध	milk	dh	u
+sɑt	saat	سات	सात	seven	t	ɑ
+hɑth	haath	ھاتھ	हाथ	hand	th	ɑ
+bhɑp	bhaap	بھاپ	भाप	steam	p	ɑ
+sʌph	seph	سپھ	सफ	tambourine	ph	ʌ
+tʌb	teb	تب	तब	then	b	ʌ
+ʃʊbh	shubh	شبھ	शुभ	auspicious	bh	ʊ
+dʒɑŋh	jaangh	جانگھ	जांघ	thigh	ŋh	ɑ
