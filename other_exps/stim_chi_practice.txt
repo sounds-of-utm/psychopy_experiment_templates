@@ -1,0 +1,5 @@
+CHARACTER	PINYIN	Medial	Init-stop	C	V	Tone	ToneLar	InitMed	InitLar	Sibs	Vowels					
+档	dang4	NA	da	d	a	4	y	y	0	0	0
+小	xiao3	NA	NA	ɕ	iao	3	0	0	0	y	0
+密	mi4	NA	NA	m	i	4	0	0	0	0	y
+汤	tang1	NA	ta	t	a	1	y	0	y	0	0

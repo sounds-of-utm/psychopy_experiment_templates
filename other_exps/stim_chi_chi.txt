@@ -1,0 +1,158 @@
+CHARACTER	PINYIN	Medial	Init-stop	C	V	Tone	ToneLar	InitMed	InitLar	Sibs	Vowels					
+爸	ba4	NA	ba	b	a	4	0	0	y	0	0
+壁	bi4	NA	bi	b	i	4	y	0	y	0	0
+不当	bu2 dang4	da	NA	d	a	4	0	y	0	0	0
+档	dang4	NA	da	d	a	4	y	y	0	0	0
+烫	tang4	NA	ta	t	a	4	y	y	0	0	0
+一趟	yi2 tang4	ta	NA	t	a	4	0	y	0	0	0
+彻底	che4 di3	di	NA	d	i	3	0	y	0	0	0
+个体	ge4 ti3	ti	NA	t	i	3	0	y	0	0	0
+活动	huo2 dong4	do	NA	d	o	4	0	y	0	0	0
+一共	yi2 gong4	go	NA	g	o	4	0	y	0	0	0
+遥控	yao2 kong4	ko	NA	k	o	4	0	y	0	0	0
+动	dong4	NA	do	d	o	4	0	y	0	0	0
+共	gong4	NA	go	g	o	4	0	y	0	0	0
+空	kong4	NA	ko	k	o	4	0	y	0	0	0
+通	tong4	NA	to	t	o	4	0	y	0	0	0
+头痛	tou2 tong4	to	NA	t	o	4	0	y	0	0	0
+裆	dang1	NA	da	d	a	1	y	0	0	0	0
+持	chi2	NA	NA	tʂʰ	I-apical	2	0	0	0	0	y
+三	san1	NA	NA	s	a	1	0	0	0	y	0
+不	bu4	NA	bu	b	u	4	0	0	y	0	0
+大	da4	NA	da	d	a	4	0	0	y	0	0
+吃	chi1	NA	NA	tʂʰ	I-apical	1	0	0	0	y	y
+尺	chi3	NA	NA	tʂʰ	I-apical	3	0	0	0	y	y
+烧	shao1	NA	NA	ʂ	au	1	0	0	0	y	0
+糟	zao1	NA	NA	ts	au	1	0	0	0	y	0
+操	cao1	NA	NA	tsʰ	au	1	0	0	0	y	0
+招	zhao1	NA	NA	tʂ	au	1	0	0	0	y	0
+抄	chao1	NA	NA	tʂʰ	au	1	0	0	0	y	0
+斥	chi4	NA	NA	tʂʰ	I-apical	4	0	0	0	0	y
+妈	ma1	NA	NA	m	a	1	0	0	0	0	y
+逼	bi1	NA	bi	b	i	1	y	0	0	0	0
+扫	sao3	NA	NA	s	au	3	0	0	0	y	0
+摘	zhai1	NA	NA	tʂ	ai	1	0	0	0	0	y
+批	pi1	NA	pi	p	i	1	y	0	0	0	0
+傻	sha3	NA	NA	ʂ	au	3	0	0	0	y	0
+早	zao3	NA	NA	ts	au	3	0	0	0	y	0
+草	cao3	NA	NA	tsʰ	au	3	0	0	0	y	0
+找	zhao3	NA	NA	tʂ	au	3	0	0	0	y	0
+吵	chao3	NA	NA	tʂʰ	au	3	0	0	0	y	0
+西	xi1	NA	NA	ɕ	i	1	0	0	0	y	0
+机	ji1	NA	NA	tɕ	i	1	0	0	0	y	0
+七	qi1	NA	NA	tɕʰ	i	1	0	0	0	y	0
+洗	xi3	NA	NA	ɕ	i	3	0	0	0	y	0
+挤	ji3	NA	NA	tɕ	i	3	0	0	0	y	0
+起	qi3	NA	NA	tɕʰ	i	3	0	0	0	y	0
+包	bao1	NA	NA	b	ao	1	0	0	0	0	y
+遮	zhe1	NA	NA	tʂ	e	1	0	0	0	0	y
+勒	lei1	NA	NA	l	ei	1	0	0	0	0	y
+眯	mi1	NA	NA	m	i	1	0	0	0	0	y
+切	qie1	NA	NA	tɕʰ	ie	1	0	0	0	0	y
+溜	liu1	NA	NA	l	iu	1	0	0	0	0	y
+摸	mo1	NA	NA	m	o	1	0	0	0	0	y
+达	da2	NA	da	d	a	2	y	0	0	0	0
+舟	zhou1	NA	NA	tʂ	ou	1	0	0	0	0	y
+堂	tang2	NA	ta	t	a	2	y	0	0	0	0
+出	chu1	NA	NA	tʂʰ	u	1	0	0	0	0	y
+灰	hui1	NA	NA	h	ui	1	0	0	0	0	y
+多	duo1	NA	NA	d	uo	1	0	0	0	0	y
+麻	ma2	NA	NA	m	a	2	0	0	0	0	y
+鼻	bi2	NA	bi	b	i	2	y	0	0	0	0
+宅	zhai2	NA	NA	tʂ	ai	2	0	0	0	0	y
+凭	ping2	NA	pi	p	i	2	y	0	0	0	0
+雹	bao2	NA	NA	b	ao	2	0	0	0	0	y
+折	zhe2	NA	NA	tʂ	e	2	0	0	0	0	y
+雷	lei2	NA	NA	l	ei	2	0	0	0	0	y
+迷	mi2	NA	NA	m	i	2	0	0	0	0	y
+瞧	qiao2	NA	NA	tɕʰ	iao	2	0	0	0	0	y
+茄	qie2	NA	NA	tɕʰ	ie	2	0	0	0	0	y
+刘	liu2	NA	NA	l	iu	2	0	0	0	0	y
+摩	mo2	NA	NA	m	o	2	0	0	0	0	y
+轴	zhou2	NA	NA	tʂ	ou	2	0	0	0	0	y
+厨	chu2	NA	NA	tʂʰ	u	2	0	0	0	0	y
+挡	dang3	NA	da	d	a	3	y	0	0	0	0
+回	hui2	NA	NA	h	ui	2	0	0	0	0	y
+躺	tang3	NA	ta	t	a	3	y	0	0	0	0
+夺	duo2	NA	NA	d	uo	2	0	0	0	0	y
+鱼	yü2	NA	NA	ɥ	y	2	0	0	0	0	y
+撕	si1	NA	NA	s	I-apical	1	0	0	0	y	0
+诗	shi1	NA	NA	ʂ	I-apical	1	0	0	0	y	0
+资	zi1	NA	NA	ts	I-apical	1	0	0	0	y	0
+疵	ci1	NA	NA	tsʰ	I-apical	1	0	0	0	y	0
+知	zhi1	NA	NA	tʂ	I-apical	1	0	0	0	y	0
+马	ma3	NA	NA	m	a	3	0	0	0	0	y
+窄	zhai3	NA	NA	tʂ	ai	3	0	0	0	0	y
+保	bao3	NA	NA	b	ao	3	0	0	0	0	y
+笔	bi3	NA	bi	b	i	3	y	0	0	0	0
+死	si3	NA	NA	s	I-apical	3	0	0	0	y	0
+者	zhe3	NA	NA	tʂ	e	3	0	0	0	0	y
+否	pi3	NA	pi	p	i	3	y	0	0	0	0
+始	shi3	NA	NA	ʂ	I-apical	3	0	0	0	y	0
+子	zi3	NA	NA	ts	I-apical	3	0	0	0	y	0
+此 	ci3	NA	NA	tsʰ	I-apical	3	0	0	0	y	0
+指	zhi3	NA	NA	tʂ	I-apical	3	0	0	0	y	0
+蕾	lei3	NA	NA	l	ei	3	0	0	0	0	y
+强	qian3	NA	NA	tɕʰ	ia	3	0	0	0	y	0
+消	xiao1	NA	NA	ɕ	iao	1	0	0	0	y	0
+交	jiao1	NA	NA	tɕ	iao	1	0	0	0	y	0
+米	mi3	NA	NA	m	i	3	0	0	0	0	y
+小	xiao3	NA	NA	ɕ	iao	3	0	0	0	y	0
+绞	jiao3	NA	NA	tɕ	iao	3	0	0	0	y	0
+敲	qiao1	NA	NA	tɕʰ	iao	1	0	0	0	y	y
+巧	qiao3	NA	NA	tɕʰ	iao	3	0	0	0	0	y
+且	qie3	NA	NA	tɕʰ	ie	3	0	0	0	0	y
+柳	liu3	NA	NA	l	iu	3	0	0	0	0	y
+抹	mo3	NA	NA	m	o	3	0	0	0	0	y
+肘	zhou3	NA	NA	tʂ	ou	3	0	0	0	0	y
+楚	chu3	NA	NA	tʂʰ	u	3	0	0	0	0	y
+毁	hui3	NA	NA	h	ui	3	0	0	0	0	y
+躲	duo3	NA	NA	d	uo	3	0	0	0	0	y
+地	di4	NA	di	d	i	4	0	y	y	0	0
+度	du4	NA	du	d	u	4	0	0	y	0	0
+干	gan4	NA	ga	g	a	4	0	0	y	0	0
+雇	gu4	NA	gu	g	u	4	0	0	y	0	0
+女	nü3	NA	NA	n	y	3	0	0	0	0	y
+看	kan4	NA	ka	k	a	4	0	0	y	0	0
+骂	ma4	NA	NA	m	a	4	0	0	0	0	y
+寨	zhai4	NA	NA	tʂ	ai	4	0	0	0	0	y
+抱	bao4	NA	NA	b	ao	4	0	0	0	0	y
+这	zhe4	NA	NA	tʂ	e	4	0	0	0	0	y
+库	ku4	NA	ku	k	u	4	0	0	y	0	0
+肋	lei4	NA	NA	l	ei	4	0	0	0	0	y
+怕	pa4	NA	pa	p	a	4	0	0	y	0	0
+密	mi4	NA	NA	m	i	4	0	0	0	0	y
+俏	qiao4	NA	NA	tɕʰ	iao	4	0	0	0	0	y
+怯	qie4	NA	NA	tɕʰ	ie	4	0	0	0	0	y
+六	liu4	NA	NA	l	iu	4	0	0	0	0	y
+末	mo4	NA	NA	m	o	4	0	0	0	0	y
+咒	zhou4	NA	NA	tʂ	ou	4	0	0	0	0	y
+屁	pi4	NA	pi	p	i	4	y	0	y	0	0
+铺	pu4	NA	pu	p	u	4	0	0	y	0	0
+塌	ta1	NA	ta	t	a	1	0	0	y	0	0
+汤	tang1	NA	ta	t	a	1	y	0	y	0	0
+替	ti4	NA	ti	t	i	4	0	y	y	0	0
+兔	tu4	NA	tu	t	u	4	0	0	y	0	0
+怵	chu4	NA	NA	tʂʰ	u	4	0	0	0	0	y
+会	hui4	NA	NA	h	ui	4	0	0	0	0	y
+垛	duo4	NA	NA	d	uo	4	0	0	0	0	y
+绿	lü4	NA	NA	l	y	4	0	0	0	0	y
+去	qü4	NA	NA	tɕ	y	4	0	0	0	0	y
+撒謊	sa1 huang3?	NA	NA	s	a	13	0	0	0	y	0
+沙灘	sha1 tan1?	NA	NA	ʂ	a	11	0	0	0	y	0
+紮根	za1 gen1?	NA	NA	ts	a	11	0	0	0	y	0
+擦門	ca1 men2?	NA	NA	tsʰ	a	12	0	0	0	y	0
+詐騙	zha4 pie4?	NA	NA	tʂ	a	44	0	0	0	y	0
+差別	cha1 bie2?	NA	NA	tʂʰ	a	12	0	0	0	y	0
+技能	ji4 neng2?	NA	NA	tɕ	i	42	0	0	0	y	0
+氣憤	qi4 fen4?	NA	NA	tɕʰ	i	44	0	0	0	y	0
+思念	si1 nian4	NA	NA	s	i-apical	14	0	0	0	y	0
+師父	shi1 fu4?	NA	NA	ʂ	i-apical	14	0	0	0	y	0
+次方	ci4 fan1?	NA	NA	tsʰ	i-apical	41	0	0	0	y	0
+織女	zhi1 nu3?	NA	NA	tʂ	i-apical	13	0	0	0	y	0
+吃飯	chi1 fan4?	NA	NA	tʂʰ	i-apical	14	0	0	0	y	0
+蝦餅	xia1 bing3?	NA	NA	ɕ	ia	13	0	0	0	y	0
+加盟	jia1 meng2	NA	NA	tɕ	ia	12	0	0	0	y	0
+恰好	qia4 hao3	NA	NA	tɕʰ	ia	43	0	0	0	y	0
+系统	xi4 tong3	NA	NA	ɕ	i	43	0	0	0	y	0
+字典	zi4 dian3	NA	NA	ts	i	43	0	0	0	y	0
