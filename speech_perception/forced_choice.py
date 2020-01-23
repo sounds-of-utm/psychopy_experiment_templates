@@ -51,23 +51,23 @@ play = 1
 
 ######################
 
-expInfo = {'Participant':'000', 'FullScr':'F', 'Repetitions':'2'}
+exp_info = {'Participant':'000', 'FullScr':'F', 'Repetitions':'2'}
 # include num_blocks
-dateStr = time.strftime("%b_%d_%H%M", time.localtime())
-dlg = gui.DlgFromDict(dictionary=expInfo, title='The Experiment', fixed=[dateStr])
+date_str = time.strftime("%b_%d_%H%M", time.localtime())
+dlg = gui.DlgFromDict(dictionary=exp_info, title='The Experiment', fixed=[date_str])
 if dlg.OK:
-    print dateStr
+    print(date_str)
     clock = core.Clock()
     rt_clock = core.Clock()
 else:
     core.quit()
 
 #create text files to save data
-fileName = expInfo['Participant']+"_" + dateStr
+fileName = exp_info['Participant']+"_" + date_str
 dataFile_cat = open('results'+slash + fileName+'.txt', 'w')
 dataFile_cat.write('sub\ttrial\tfile\tchoice\trt\n')
 
-reps = int(expInfo['Repetitions'])
+reps = int(exp_info['Repetitions'])
 
 ##### CATEGORIZATION #####
 def categorization(stimdir, block):
@@ -107,7 +107,7 @@ def categorization(stimdir, block):
         choice = keys[0][0]
         if choice =="escape":
             core.quit()
-        dataFile_cat.write(expInfo['Participant'] + '\t' + str(trial) + '\t' + word+'\t' +choice+'\t'+str(rt)+'\n')
+        dataFile_cat.write(exp_info['Participant'] + '\t' + str(trial) + '\t' + word+'\t' +choice+'\t'+str(rt)+'\n')
         core.wait(iti)
         count += 1
         trial += 1
@@ -115,7 +115,7 @@ def categorization(stimdir, block):
     message.setText("")
     win.flip()
 
-if expInfo['FullScr']=="T":
+if exp_info['FullScr']=="T":
     win = visual.Window(fullscr=True, color = 1)
 else:
     win = visual.Window(size=(1000, 600), color = 1)

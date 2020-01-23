@@ -16,70 +16,78 @@
 from psychopy import visual, core, event, gui
 import random, time
 
-expInfo = {'Participant':'000',  
-  'Repetitions':'1',
-  'Filename':'wordlist.txt',
-  'FullScreen': 'F'
-}
-dateStr = time.strftime("%b_%d_%H%M", time.localtime())
-dlg = gui.DlgFromDict(dictionary=expInfo, title='The Experiment', fixed=[dateStr])
-if dlg.OK:
-    print dateStr
-    clock = core.Clock()
-else:
-    core.quit()
+def read_words_exp():
+    """Presents words from a specific file to the user to read."""
+    exp_info = {'Participant':'000',
+               'Repetitions':'1',
+               'Filename':'wordlist.txt',
+               'FullScreen': 'F'
+              }
+    date_str = time.strftime("%b_%d_%H%M", time.localtime())
+    dlg = gui.DlgFromDict(dictionary=exp_info, title='The Experiment', fixed=[date_str])
+    if dlg.OK:
+        print(date_str)
+        clock = core.Clock()
+    else:
+        core.quit()
 
-#create text file to save data
-fileName = expInfo['Participant'] + "_" + dateStr
-num_blocks = int(expInfo['Repetitions'])
-wordlist = expInfo['Filename']
-fullScreen = expInfo['FullScreen']
+    #create text file to save data
+    fileName = exp_info['Participant'] + "_" + date_str
+    num_blocks = int(exp_info['Repetitions'])
+    wordlist = exp_info['Filename']
+    fullScreen = exp_info['FullScreen']
 
-dataFile = open('results/'+fileName+'.txt', 'w')
-dataFile.write('word\ttime\n')  
+    dataFile = open('results/'+fileName+'.txt', 'w')
+    dataFile.write('word\ttime\n')
 
-#compile list of stimuli (randomized)
-fi = open(wordlist, 'r')
-stim = fi.readlines()
-        
-#Create window, give instructions
-if fullScreen != 'T':
-  win = visual.Window([1400, 800], pos=(0,10), color=1)
-else: 
-  win = visual.Window(fullscr=True, color = 1)
-mouse = event.Mouse()
-message = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=-1)
-message1 = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=(1,0,0))
-message.setAutoDraw(True)
+    #compile list of stimuli (randomized)
+    fi = open(wordlist, 'r')
+    stim = fi.readlines()
 
-message.setText('Instructions:\n\n Please read the words on the screen.')
-win.flip()
-event.waitKeys()
 
-block = 1
-while block <= num_blocks:
-    message.setText("Block " + str(block) + ": Press any key to begin.")
-    message.draw()
+    # TODO: Make window size 'responsive'
+    #Create window, give instructions
+    if fullScreen != 'T':
+      win = visual.Window([900, 600], pos=(0,10), color=1) #original: 1400, 800
+    else:
+      win = visual.Window(fullscr=True, color = 1)
+    mouse = event.Mouse()
+    message = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=-1)
+    message1 = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=(1,0,0))
+    message.setAutoDraw(True)
+
+    message.setText('Instructions:\n\n Please read the words on the screen.')
     win.flip()
     event.waitKeys()
-    random.shuffle(stim, random.random)
-    for word in stim:
-        print word
-        word = word.strip()
-        time = str(clock.getTime())
-        message.setText(word) 
+
+    block = 1
+    while block <= num_blocks:
+        message.setText("Block " + str(block) + ": Press any key to begin.")
         message.draw()
         win.flip()
-        pressed = event.waitKeys()
-        if "escape" in pressed:
-            core.quit()
-        dataFile.write(word+'\t'+time+'\n')
-        pressed = event.getKeys(keyList="escape")
-        if pressed=="escape":
-            core.quit()
-    block += 1
-        
+        event.waitKeys()
+        random.shuffle(stim, random.random)
+        for word in stim:
+            print(word)
+            word = word.strip()
+            time_var = str(clock.getTime())
+            message.setText(word)
+            message.draw()
+            win.flip()
+            pressed = event.waitKeys()
+            if "escape" in pressed:
+                core.quit()
+            dataFile.write(word+'\t'+time_var+'\n')
+            pressed = event.getKeys(keyList="escape")
+            if pressed=="escape":
+                core.quit()
+        block += 1
 
-message.setText("That's it - Thanks!")
-win.flip()
-event.waitKeys()
+
+    message.setText("That's it - Thanks!")
+    win.flip()
+    event.waitKeys()
+
+
+if __name__ == "__main__":
+    read_words_exp()
