@@ -14,7 +14,10 @@
 #################################
 
 from psychopy import visual, core, event, gui
+from PIL import Image
 import random, time
+import os
+
 
 def read_words_exp():
     """Presents words from a specific file to the user to read."""
@@ -34,29 +37,22 @@ def read_words_exp():
     #create text file to save data
     fileName = exp_info['Participant'] + "_" + date_str
     num_blocks = int(exp_info['Repetitions'])
-    wordlist = exp_info['Filename']
+    # wordlist = exp_info['Filename']
     fullScreen = exp_info['FullScreen']
-
     dataFile = open('results/'+fileName+'.txt', 'w')
-    dataFile.write('word\ttime\n')
+    dataFile.write('image file\ttime\n')
 
-    #compile list of stimuli (randomized)
-    fi = open(wordlist, 'r')
-    stim = fi.readlines()
+    directory = r"../samples/images"
 
-
-    # TODO: Make window size 'responsive'
     #Create window, give instructions
     if fullScreen != 'T':
-      win = visual.Window([900, 600], pos=(0,10), color=1) #original: 1400, 800
+      win = visual.Window(size=(1400, 800), pos=(0,10), screen=0, color=1)
     else:
       win = visual.Window(fullscr=True, color = 1)
-    mouse = event.Mouse()
-    message = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=-1)
-    message1 = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=(1,0,0))
+    message = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=-1, pos=(0.7,0))
     message.setAutoDraw(True)
 
-    message.setText('Instructions:\n\n Please read the words on the screen.')
+    message.setText('Instructions:\n\n Please take a look at the images on the screen.')
     win.flip()
     event.waitKeys()
 
@@ -65,24 +61,29 @@ def read_words_exp():
         message.setText("Block " + str(block) + ": Press any key to begin.")
         message.draw()
         win.flip()
+        message.setText('')  # 'Clear' the previous text
         event.waitKeys()
-        random.shuffle(stim, random.random)
-        for word in stim:
-            print(word)
-            word = word.strip()
+
+        # IMAGE
+        for i in range(len(os.listdir(directory))):
+            win.flip() # clears the sometimes-no-image-appears-after-a-key-is-pressed issue
+            img = random.choice(os.listdir(directory)) # randomly select an image in the images directory
+            image = Image.open(directory + "/" + img)
+            stim = visual.ImageStim(win, image=image)
+            # Reduce the size of this image; on a laptop it is too big
+            if img == 'monster1.png':
+                size_x = stim.size[0]
+                size_y = stim.size[1]
+                stim.size = [size_x / 2, size_y / 2]
             time_var = str(clock.getTime())
-            message.setText(word)
-            message.draw()
+            stim.draw()
             win.flip()
             pressed = event.waitKeys()
             if "escape" in pressed:
                 core.quit()
-            dataFile.write(word+'\t'+time_var+'\n')
-            pressed = event.getKeys(keyList="escape")
-            if pressed=="escape":
-                core.quit()
+            else:
+                dataFile.write(img + '\t' + time_var + '\n')  # writing in the name of the image file i.e. monster3.png
         block += 1
-
 
     message.setText("That's it - Thanks!")
     win.flip()
