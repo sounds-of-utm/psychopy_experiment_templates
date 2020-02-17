@@ -55,13 +55,10 @@ def read_words_exp(filepath: str, fontsize: int, style: str, font='Arial'):
       win = visual.Window([1400, 800], pos=(0,10), color=1)
     else:
       win = visual.Window(fullscr=True, color = 1)
-    # mouse = event.Mouse()
     message = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=-1,
                               pos=(0.7, 0), font='{}'.format(font), languageStyle='{}'.format(style))
-    # pos affects text position on window
     # Songti SC font doesn't crop out Mandarin characters
     # Songti font doesn't work for Urdu; use another font i.e. Arial, Times New Roman, ...
-    # message1 = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=(1,0,0))
     message.setAutoDraw(True)
 
     message.setText('Instructions:\n\n Please read the words on the screen.')

@@ -41,10 +41,6 @@ cwd = os.getcwd()
 choice1_text = 'pa'
 choice2_text = 'ba'
 
-# these are the key options that participants should press (left/right)
-# key1 = 'f'
-# key2 = 'j'
-
 input = 'mouse'
 
 # iti = inter-trial interval, the duration of time between trials
@@ -79,14 +75,13 @@ reps = int(exp_info['Repetitions'])
 def categorization(stimdir, block):
     global trial
     #compile lists of stimuli (randomized)
-    flag = 0
-    choice= "NA"
+    # choice= "NA"
     stim = []
     files = os.listdir(stimdir)
     for file in files:
         if file[-4:] == ".wav" and file[0] != ".":
             stim.append(file)
-    num_stim = len(stim)
+    # num_stim = len(stim)
     count = 1
     message.setText("Block " + str(block))
     message.pos = (0.7, -0.2)
@@ -97,17 +92,9 @@ def categorization(stimdir, block):
     event.waitKeys()
     random.shuffle(stim)
 
-    # for element in screen_elements:
-    #      element.setAutoDraw(True)
-
     message.setText('')
     win.flip()
     for word in stim:
-
-        # if flag == 1:
-        #     flag = 0
-        #     break
-        # message.setText(choice1_text + "         -----         " + choice2_text)
         message2.setText("Block "+ str(block) + "-- Trial " + str(count) + " of " + str(len(stim)))
         win.flip()
         screen_elements['bshape'].draw()
@@ -122,15 +109,9 @@ def categorization(stimdir, block):
         dur = wav.getDuration()
         wav.play()
         core.wait(dur)
-        # keys = event.waitKeys(keyList=['escape'], timeStamped=rt_clock)
 
-        # pressed = event.waitKeys()
-        # if "escape" in pressed:
-        #     core.quit()
         if input == 'mouse':
-            # key = "0"
             while choice == '':
-                # in_shape = 0
                 allKeys = event.getKeys(keyList=['escape'])
                 for key in allKeys:
                     if "escape" in key:
@@ -149,13 +130,6 @@ def categorization(stimdir, block):
         screen_elements['pword'].draw()
         win.flip()
 
-
-
-        rt = mouseClock.getTime()
-        # rt = keys[0][1]
-        # choice = keys[0][0]
-        # if choice =="escape":
-        #     core.quit()
         dataFile_cat.write(exp_info['Participant'] + '\t' + str(trial) + '\t' + word+'\t' + choice +'\t'+str(rt)+'\n')
         core.wait(iti)
         count += 1
@@ -165,8 +139,6 @@ def categorization(stimdir, block):
     win.flip()
     block += 1
 
-# global block
-# global trial
 
 if exp_info['FullScr']=="T":
     win = visual.Window(fullscr=True, color = 1)
@@ -190,12 +162,10 @@ pshape = visual.Rect(win=win, name='pshape',
 pword = visual.TextStim(win, pos=(1.1, 0.2), height=0.2, color=-1)
 pword.setText('pa')
 
-# screen_elements = [bshape, pshape, bword, pword]
 screen_elements = {'bshape': bshape, 'pshape': pshape, 'bword': bword, 'pword': pword}
 
 message = visual.TextStim(win, wrapWidth=1.3, height=0.1, color=-1, pos=(0.7, 0))
 message.setAutoDraw(True)
-# message.setText("Please press " + key1 + " or " + key2 + " to indicate what you heard.")
 message.setText("Please click " + choice1_text + " or " + choice2_text + " to indicate what you heard.")
 win.flip()
 event.waitKeys()
@@ -210,12 +180,6 @@ message.setText("Thank you!")
 win.flip()
 event.waitKeys()
 
-# message.setAutoDraw(False)
-# win.flip()
-# message.setText("Thank you!")
-# message.draw()
-# win.flip()
-# event.waitKeys()
 
 
 
